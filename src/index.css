@@ -146,7 +146,9 @@ a.site-logo {
   display:flex;
   flex-direction: column;
 }
-
+.col>*{
+  flex-basis: 50% !important;
+}
 div.col.nth-select>*:nth-child(even){
   background-color: var(--pale-azure);
 }
