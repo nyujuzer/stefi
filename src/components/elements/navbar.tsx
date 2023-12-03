@@ -15,10 +15,6 @@ const NavBar = ()=>{
           <li><Link to="/download">download</Link></li>
           <li><Link to="/contacts">contact</Link></li>
         </ul>
-
-        <button className="nav-toggler">
-          <span></span>
-        </button>
       </nav>
     </div>
   </div>

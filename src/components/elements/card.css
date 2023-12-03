@@ -1,5 +1,5 @@
 .card {
-  flex-basis: 100%;
+    flex-basis: 100%;
     border: 1px solid #ddd;
     border-radius: 8px;
     margin: 10px;
@@ -16,3 +16,5 @@
   .card-content {
     padding: 15px;
   }
+
+  
