@@ -7,10 +7,10 @@ const NavBar = ()=>{
   <div className="navbar-area">
     <div className="container">
       <nav className="site-navbar">
-        <Link to="#home" className="site-logo">logo</Link>
+        <Link to="/" className="site-logo">logo</Link>
 
         <ul>
-          <li><Link to="/home">home</Link></li>
+          <li><Link to="/">home</Link></li>
           <li><Link to="/about">about</Link></li>
           <li><Link to="/download">download</Link></li>
           <li><Link to="/contacts">contact</Link></li>

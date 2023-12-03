@@ -55,15 +55,6 @@ function App() {
             compromising your privacy. Control who sees your content and when,
             ensuring that your dating journey unfolds at your own pace.
           </p>
-
-          <h3>🎉 Events That Spark Connection:</h3>
-          <p>
-            Elevate your dating game with ClipCrush events! From virtual
-            gatherings to themed video chats, we're creating opportunities for
-            you to connect in fun and meaningful ways. Because sometimes, the
-            best connections happen when you're sharing an experience.
-          </p>
-
           <h3>🌎 Connecting the World, One Click at a Time:</h3>
           <p>
             Whether you're drawn to a global tapestry of connections or seeking
