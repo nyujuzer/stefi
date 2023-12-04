@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import NavBar from "./components/elements/navbar";
 import AboutUs from "./components/screens/about";
-import Download from "./components/screens/download";
+import Services from "./components/screens/services";
 import Contact from "./components/screens/contact";
 
 const root = ReactDOM.createRoot(
@@ -20,7 +20,7 @@ root.render(
         <Route path="/">
         <Route index element={<App/>}></Route>
         <Route path="about" element={<AboutUs/>}></Route>
-        <Route path="download" element={<Download/>}></Route>
+        <Route path="services" element={<Services/>}></Route>
         <Route path="contacts" element={<Contact/>}></Route>
         </Route>
       </Routes>

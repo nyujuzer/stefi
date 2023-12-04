@@ -3,11 +3,11 @@
 --pale-dogwood: #ddc8c4ff;
 --mimi-pink: #fad4d8ff;
 --pale-azure: #97dffcff;
---yinmn-blue: #36558fff;
+--yinmn-blue: #be1e2eff;
 }
 
 body {
-  background: linear-gradient(90deg,var(--pale-dogwood), var(--yinmn-blue));
+  background: linear-gradient(90deg,var(--pale-dogwood), var(--mimi-pink));
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -46,6 +46,10 @@ code {
   align-items: center;
 }
 a.site-logo {
+  /* background-image: url("https://stefimester.hu/wp-content/uploads/stefimester-motrio2.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center; */
   font-size: 26px;
   font-weight: 800;
   text-transform: uppercase;
@@ -111,7 +115,7 @@ a.site-logo {
 
 .hero {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
-  url("./assets/hero.jpeg");
+  url("https://media.istockphoto.com/id/509471172/hu/fot%C3%B3/kem%C3%A9nyen-dolgoz%C3%B3-szerel%C5%91.jpg?s=2048x2048&w=is&k=20&c=h06KNrsLH2kvX6yf3MOH-ebu_YBcaySW8WiQr1o5KZE=");
   background-position: center center;
   background-size: cover;
 }

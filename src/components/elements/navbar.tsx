@@ -7,13 +7,15 @@ const NavBar = ()=>{
   <div className="navbar-area">
     <div className="container">
       <nav className="site-navbar">
-        <Link to="/" className="site-logo">logo</Link>
+        <Link to="/" className="site-logo">
+          <img src="https://stefimester.hu/wp-content/uploads/stefimester-motrio2.png" alt="" />
+        </Link>
 
         <ul>
-          <li><Link to="/">home</Link></li>
-          <li><Link to="/about">about</Link></li>
-          <li><Link to="/download">download</Link></li>
-          <li><Link to="/contacts">contact</Link></li>
+          <li><Link to="/">Kezdőlap</Link></li>
+          <li><Link to="/about">Rólunk</Link></li>
+          <li><Link to="/services">Fó szolgáltatásom</Link></li>
+          <li><Link to="/contacts">Kapcsolat</Link></li>
         </ul>
       </nav>
     </div>

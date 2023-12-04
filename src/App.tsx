@@ -1,132 +1,67 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import Card from "./components/elements/card";
+import { Row, Col, Image } from "react-bootstrap";
 
 function App() {
   return (
     <Fragment>
       <div className="hero">
         <div className="hero-area">
-          <h2>Welcome to ClipCrush - Where Connections Begin with a Click!</h2>
+          <h2>Üdvözlünk Stefimester autószerelő műhelyében!</h2>
         </div>
       </div>
-      <div className="col ">
-        <Card title="🎬 Welcome to ClipCrush - Where Love Finds Its Voice! 🎬">
+      <Col>
+        <Card title="Autószerelő pályakezdési és szakmai továbbfejlődési lehetőség egy igazi Profinál!">
           <h3>
-            Embark on a revolutionary dating journey with ClipCrush, the dating
-            app that goes beyond the swipe and brings your connections to life
-            through the magic of video. We're rewriting the rules of online
-            dating, catering to the vibrant spirits of young adults who crave
-            more than just static profiles and generic bios.
+            Munkalehetőség Stefi Mester műhelyében! Frissen végzett szakképzett
+            autószerelő vagy? Széleskörű szerelői és diagnosztikai
+            tapasztalatokat szeretnél gyűjteni? Igényes vagy a munkádban és
+            motivál a jó minőségben és időben elvégzett munkateljesítményeddel
+            arányosan növekvő kereset? Stefi Mester Műhelye a Renault csoport
+            Motrio szervízhálózatának hivatalos tagja, és heti 40 órás rugalmas
+            munkaidőben a XVII. kerületben, versenyképes fizetéssel biztosítja
+            számodra a fenti szakmai céljaid elérését. Fényképes önéletrajzodat
+            várjuk a stefimester.allas@gmail.com email-cimre.
           </h3>
-
-          <h3>🌟 A New Chapter in Dating:</h3>
-          <p>
-            Say hello to a dating experience that's as dynamic as you are! At
-            ClipCrush, we believe that a picture is worth a thousand words, and
-            a video? Well, that's a story waiting to be told. Dive into a world
-            where connections are forged through the art of self-expression,
-            allowing you to truly showcase who you are and what makes your heart
-            skip a beat.
-          </p>
-
-          <h3>🌈 Ephemeral Matches, Lasting Memories:</h3>
-          <p>
-            Experience the thrill of ephemeral matches - a unique feature that
-            adds an element of spontaneity to your journey. Connect with someone
-            for a brief, exciting moment, and if the chemistry sizzles,
-            transform that fleeting spark into a lasting flame. It's dating on
-            your terms, with a dash of unpredictability.
-          </p>
-
-          <h3>📸 Beyond the Selfie:</h3>
-          <p>
-            Unleash your creativity and share your story in vivid detail.
-            Alongside videos, our platform lets you upload your favorite photos,
-            providing a multi-dimensional view of your personality. Express
-            yourself authentically, whether it's a snapshot of your latest
-            adventure or a candid moment that perfectly captures your essence.
-          </p>
-
-          <h3>🔐 Privacy You Can Rely On:</h3>
-          <p>
-            Your peace of mind matters. ClipCrush is committed to creating a
-            secure environment where you can explore connections without
-            compromising your privacy. Control who sees your content and when,
-            ensuring that your dating journey unfolds at your own pace.
-          </p>
-          <h3>🌎 Connecting the World, One Click at a Time:</h3>
-          <p>
-            Whether you're drawn to a global tapestry of connections or seeking
-            someone in your neighborhood, ClipCrush connects you with
-            like-minded individuals who share your vibe. Expand your horizons or
-            keep it local - the choice is yours. Join us on this extraordinary
-            adventure where real connections, real people, and real moments take
-            center stage. ClipCrush - because your love story deserves to be
-            told in moving pictures. Sign up today and let the journey begin!
-            🌟✨
-          </p>
         </Card>
 
-        <div className="row">
-          <Card title="Discover Love Through Videos:">
+        <Row>
+          <Col xs={6} md={4}>
+          
+          <Card title="Tisztességes Vállalkozás Tanúsítvány 2020&2021">
             <h3>
-              Say goodbye to the static profiles of traditional dating apps!
-              ClipCrush brings dating to life with dynamic video profiles. Swipe
-              through captivating clips of potential matches, giving you a sneak
-              peek into their world. Will a shared passion for travel or a love
-              for pets ignite the spark? Find out in the blink of an eye!
+              Kiérdemeltük tavaly is, és az idei évben is a Tisztességes
+              Vállalkozás tanúsítványát, melyet Ügyfeleink visszajelzéséből
+              állapítottak meg. Köszönjük Nektek Új akciónk keretében továbbá
+              kedvezményeket biztosítunk a Renault Group Hungary, a Renault
+              Megane Klub és a Twingo Klub Hungary klubok tagjai számára.
+              Érdeklődni telefonon kérünk Titeket a +36-30-931-3596
+              telefonszámon.
             </h3>
+            <Image src="https://stefimester.hu/wp-content/uploads/20210323_142016-768x1024.jpg" thumbnail width={"100%"}></Image>
           </Card>
-          <Card title="Ephemeral Matches, Lasting Connections:">
+          </Col>
+          <Col xs={6} md={4}>
+          
+          <Card title="Motrio Renault Group">
             <h3>
-              Experience the thrill of ephemeral matches! Connect with someone
-              for a limited time, and if the chemistry ignites, turn that spark
-              into a flame with a permanent connection. It's like speed dating
-              for the digital age - exciting, spontaneous, and full of
-              surprises!
+               Örömmel
+              jelenthetjük be, hogy 2020.01.01-től Szervizünk csatlakozott a
+              MOTRIO Groupe Renault hálózatához, mellyel gyári minőségű
+              színvonalat tudunk biztosítani ügyfeleink számára.Ez azt jelenti,
+              hogy lehetőség adódott a MOTRIO Groupe Renault termékek és gyári
+              Renault alkatrészek kedvező áron történő beszerzésére és
+              beszerelésére.Reméljük, hogy Ügyfeleink is maximálisan elégedettek
+              lesznek a különböző szervizelések során.
             </h3>
+            <Image width={"100%"} style={{display:"inline"}} src={"https://stefimester.hu/wp-content/uploads/84569813_1852637678206523_6139575352139186176_o-1536x842.jpg"} alt="plakett" thumbnail />
+            {/* <img src=></img> */}
           </Card>
-        </div>
-        <div className="row ">
-          <Card title="Express Yourself with Photos:">
-            <h3>
-              Don't just tell your story, show it! In addition to videos, upload
-              your favorite photos to give potential matches a comprehensive
-              view of your personality. Whether it's a selfie from your latest
-              adventure or a pic showcasing your culinary skills, let your
-              visual story speak volumes.
-            </h3>
-          </Card>
-          <Card title="Privacy You Can Trust:">
-            <h3>
-              At ClipCrush, your privacy is our priority. Enjoy a secure and
-              safe space to explore connections without the worry. With our
-              robust privacy features, you're in control of who sees your
-              content and for how long.
-            </h3>
-          </Card>
-        </div>
-        <div className="row">
-          <Card title="Real Connections, Real People:">
-            <h3>
-              ClipCrush is designed for young adults seeking genuine
-              connections. No more swiping through endless profiles – just real
-              people sharing real moments. Break the ice with a video, bond over
-              shared interests, and let the conversations flow.
-            </h3>
-          </Card>
-          <Card title="Date Night Made Simple">
-            <h3>
-              Planning your next rendezvous is a breeze with ClipCrush! From
-              virtual coffee chats to in-person adventures, seamlessly propose
-              and coordinate dates directly in the app. Enjoy the ease of
-              connecting and planning, making your journey to love as enjoyable
-              as the dates themselves. 💑✨
-            </h3>
-          </Card>
-        </div>
-      </div>
+          </Col>
+        </Row>
+        
+      </Col>
     </Fragment>
   );
 }
