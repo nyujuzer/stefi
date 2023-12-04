@@ -12,10 +12,14 @@ const NavBar = ()=>{
         </Link>
 
         <ul>
-          <li><Link to="/">Kezdőlap</Link></li>
-          <li><Link to="/about">Rólunk</Link></li>
-          <li><Link to="/services">Fó szolgáltatásom</Link></li>
-          <li><Link to="/contacts">Kapcsolat</Link></li>
+          <li>
+            <Link to="/">Kezdőlap</Link></li>
+          <li>
+            <Link to="/about">Rólunk</Link></li>
+          <li>
+            <Link to="/services">Fó szolgáltatásom</Link></li>
+          <li>
+            <Link to="/contacts">Kapcsolat</Link></li>
         </ul>
       </nav>
     </div>
