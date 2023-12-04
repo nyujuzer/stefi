@@ -1,0 +1,7 @@
+.btn-yimn{
+    background-color:var(--yinmn-blue)
+}
+.clickable-text{
+    color:var(--mimi-pink);
+    text-decoration: none;
+}
