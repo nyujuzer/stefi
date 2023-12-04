@@ -13,6 +13,7 @@ const NavBar = ()=>{
 
         <ul>
           <li>
+            
             <Link to="/">Kezdőlap</Link></li>
           <li>
             <Link to="/about">Rólunk</Link></li>
