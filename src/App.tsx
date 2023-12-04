@@ -10,7 +10,7 @@ function App() {
           <h2>Welcome to ClipCrush - Where Connections Begin with a Click!</h2>
         </div>
       </div>
-      <div className="col nth-select">
+      <div className="col ">
         <Card title="🎬 Welcome to ClipCrush - Where Love Finds Its Voice! 🎬">
           <h3>
             Embark on a revolutionary dating journey with ClipCrush, the dating
